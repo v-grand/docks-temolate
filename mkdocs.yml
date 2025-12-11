@@ -16,22 +16,10 @@ theme:
 nav:
   - 'en':
     - 'Home': 'en/index.md'
-    - 'Platform Overview': 'en/platform-overview.md'
-    - 'Services':
-      - 'Template User Service': 'en/template-user-service.md'
-      - 'Template REST API': 'en/template-rest-api.md'
   - 'ru':
     - 'Главная': 'ru/index.md'
-    - 'Обзор Платформы': 'ru/platform-overview.md'
-    - 'Сервисы':
-      - 'Template User Service': 'ru/template-user-service.md'
-      - 'Template REST API': 'ru/template-rest-api.md'
   - 'pl':
     - 'Strona Główna': 'pl/index.md'
-    - 'Przegląd Platformy': 'pl/platform-overview.md'
-    - 'Usługi':
-      - 'Template User Service': 'pl/template-user-service.md'
-      - 'Template REST API': 'pl/template-rest-api.md'
 
 plugins:
   - search
