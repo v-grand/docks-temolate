@@ -1,0 +1,56 @@
+# Добро пожаловать в Документацию Платформы v-grand
+
+Добро пожаловать в полную документацию экосистемы **v-grand**. Здесь вы найдете информацию о различных компонентах платформы, их назначении и способах использования.
+
+## 📚 Обзор Платформы
+
+Для получения общего представления о структуре и основных сервисах платформы, пожалуйста, посетите страницу:
+
+[**Обзор Платформы**](platform-overview.md)
+
+## 🚀 Быстрый старт
+
+### Для новых проектов
+
+1.  **Клонируйте шаблон:**
+    ```bash
+    git clone https://github.com/v-grand/infra-template.git my-new-project
+    cd my-new-project
+    ```
+
+2.  **Настройте окружение:**
+    ```bash
+    cp terraform.tfvars.example terraform.tfvars
+    # Отредактируйте terraform.tfvars с вашими настройками
+    ```
+
+3.  **Разверните:**
+    ```bash
+    terraform init
+    terraform plan
+    terraform apply
+    ```
+
+### Для существующих проектов
+
+Выберите подходящий репозиторий:
+
+-   **Развёртывание AWS** → [infra-aws](aws.md)
+-   **Развёртывание GCP** → [infra-gcp](gcp/index.md)
+-   **Kubernetes** → [infra-k8s.md](infra-k8s.md)
+-   **Мониторинг** → [infra-monitoring.md](infra-monitoring.md)
+
+## 🔗 Внешние ресурсы
+
+-   [Документация Terraform](https://www.terraform.io/docs)
+-   [Документация GitHub Actions](https://docs.github.com/en/actions)
+-   [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
+-   [Google Cloud Architecture Center](https://cloud.google.com/architecture)
+
+## 🤝 Вклад в проект
+
+Мы приветствуем вклад в проект! Пожалуйста, смотрите руководства по вкладу в отдельных репозиториях.
+
+## 📄 Лицензия
+
+Все репозитории лицензированы под MIT License, если не указано иное.

@@ -1,0 +1,51 @@
+site_name: v-grand Platform Docs
+repo_url: https://github.com/v-grand/infra-docs
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+  language: en
+  logo: assets/images/logo.svg
+  favicon: assets/images/logo.svg
+  palette:
+    scheme: default
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - 'en':
+    - 'Home': 'en/index.md'
+    - 'Platform Overview': 'en/platform-overview.md'
+    - 'Services':
+      - 'Template User Service': 'en/template-user-service.md'
+      - 'Template REST API': 'en/template-rest-api.md'
+  - 'ru':
+    - 'Главная': 'ru/index.md'
+    - 'Обзор Платформы': 'ru/platform-overview.md'
+    - 'Сервисы':
+      - 'Template User Service': 'ru/template-user-service.md'
+      - 'Template REST API': 'ru/template-rest-api.md'
+  - 'pl':
+    - 'Strona Główna': 'pl/index.md'
+    - 'Przegląd Platformy': 'pl/platform-overview.md'
+    - 'Usługi':
+      - 'Template User Service': 'pl/template-user-service.md'
+      - 'Template REST API': 'pl/template-rest-api.md'
+
+plugins:
+  - search
+  - i18n:
+      default_language: en
+      languages:
+        en: English
+        ru: Русский
+        pl: Polski
+  - mkdocs-jupyter
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - toc:
+      baselevel: 2

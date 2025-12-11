@@ -1,0 +1,9 @@
+[submodule "template-user-service"]
+	path = template-user-service
+	url = https://github.com/v-grand/template-user-service.git
+[submodule "template-rest-api"]
+	path = template-rest-api
+	url = https://github.com/v-grand/template-rest-api.git
+[submodule "infra-docks"]
+	path = infra-docks
+	url = https://github.com/v-grand/infra-docks.git
